@@ -1,16 +1,21 @@
-# DVLD Project
+# DVLD - Driver and Vehicle Licensing Directorate
 
 ## Overview
-DVLD is a desktop application built using **.NET (Windows Forms)** and **C#**, utilizing a **SQL Server database**. The application follows a **3-Tier Architecture**, comprising:
-
-1. **Presentation Layer**: User interface for interaction.
-2. **Business Layer**: Contains the logic and rules of the application.
-3. **Data Access Layer**: Manages communication with the database.
+The **Driver and Vehicle Licensing Directorate (DVLD)** system is a comprehensive solution designed to manage the core functionalities of the DVLD, including handling people, drivers, users, applications, tests, and licenses. This project showcases a robust implementation of a desktop application using **.NET (Windows Forms)** and **C#**, following a **3-Tier Architecture** for scalability and maintainability.
 
 ## Features
-- Organized 3-tier architecture.
-- Secure and modular database connectivity.
-- Includes a database backup for easy setup.
+- **Application Management**: Allows users to submit and manage applications for various license types:
+  - Commercial
+  - Ordinary
+  - Motorcycle
+  - Local and International licenses.
+- **Workflow Management**: Efficient processing of license applications with workflows for Local and International requests.
+- **Secure Data Handling**: Implements password encryption before storage to ensure sensitive information is protected.
+- **Database Operations**: Developed a Data Access Layer to manage all CRUD operations efficiently for DVLD entities.
+- **3-Tier Architecture**: Separation of concerns into:
+  1. **Presentation Layer**: User interface.
+  2. **Business Logic Layer**: Processing and rules.
+  3. **Data Access Layer**: Database communication.
 
 ## Prerequisites
 1. **SQL Server** installed and running.
