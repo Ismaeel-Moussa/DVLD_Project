@@ -30,7 +30,7 @@ DVLD is a desktop application built using **.NET (Windows Forms)** and **C#**, u
 - Open the `App.config` file and update the `DataBaseConnectionString` entry with your database credentials:
   ```xml
   <add name="DataBaseConnectionString" connectionString="Server=.;Database=DVLD;User Id=your-username;Password=your-password;"/>
-###3. Run the Project
+### 3. Run the Project
 - After setting up everything, you can run the project using the following credentials:
 - Username: Ismaeel_Moussa
 - Password: 5587
