@@ -1,7 +1,7 @@
 # DVLD - Driver and Vehicle Licensing Directorate
 
 ## Overview
-The **Driver and Vehicle Licensing Directorate (DVLD)** system is a comprehensive solution designed to manage the core functionalities of the DVLD, including handling people, drivers, users, applications, tests, and licenses. This project showcases a robust implementation of a desktop application using **.NET (Windows Forms)** and **C#**, following a **3-Tier Architecture** for scalability and maintainability.
+The Driver and Vehicle Licensing Directorate (DVLD) system is a comprehensive desktop application developed using .NET (Windows Forms) and C#. It employs a 3-Tier Architecture to ensure scalability and maintainability. The system manages core functionalities of the DVLD, including handling individuals, drivers, users, applications, tests, and licenses. Data management is facilitated through Microsoft SQL Server, with data access implemented via ADO.NET.
 
 ## Features
 - **Application Management**: Allows users to submit and manage applications for various license types:
